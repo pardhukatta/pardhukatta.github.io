@@ -283,7 +283,7 @@
   .edu-inst { font-size: 0.84rem; color: var(--muted); }
 
   /* ——— PROJECTS ——— */
-  .projects-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .projects-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
   .project-card {
     background: var(--card); border: 1px solid var(--border); border-radius: 16px;
     padding: 1.8rem; display: flex; flex-direction: column;
@@ -615,6 +615,15 @@
       </div>
     </div>
     <div class="project-card">
+      <div class="project-icon">🏥</div>
+      <div class="project-title">Diabetes Readmission Risk Predictor</div>
+      <div class="project-desc">AI-powered healthcare analytics app predicting 30-day hospital readmission risk for diabetic patients. Built with Random Forest achieving 90.35% accuracy, 89.98% F1-score, and 95.19% ROC-AUC. Features AI-generated clinical recommendations using Google Gemini and real-time risk assessment.</div>
+      <a href="https://diabetes-readmission-predictor-v2.streamlit.app" target="_blank" class="project-live-btn">🚀 Live App</a>
+      <div class="project-tags">
+        <span class="project-tag">Python</span><span class="project-tag">Random Forest</span><span class="project-tag">Streamlit</span><span class="project-tag">Gemini AI</span><span class="project-tag">Scikit-Learn</span><span class="project-tag">XGBoost</span>
+      </div>
+    </div>
+    <div class="project-card">
       <div class="project-icon">🧠</div>
       <div class="project-title">Job Role Prediction using NLP & ML</div>
       <div class="project-desc">Built an end-to-end ML model to predict job roles from posting text using TF-IDF vectorization and Chi-Square feature selection. Handled class imbalance with SMOTE. Compared Logistic Regression, Random Forest, Naive Bayes, XGBoost — evaluated on Accuracy, Precision, Recall, F1-score.</div>
@@ -633,6 +642,10 @@
       <h2 class="section-title">Get In Touch</h2>
       <div class="title-underline"></div>
       <div class="contact-items">
+        <a class="contact-item" href="tel:+918822551199">
+          <div class="contact-icon">📱</div>
+          <div><div class="contact-lbl">Phone</div><div class="contact-val">+91 88225 51199</div></div>
+        </a>
         <a class="contact-item" href="mailto:pardhukattaofficial@gmail.com">
           <div class="contact-icon">✉️</div>
           <div><div class="contact-lbl">Email</div><div class="contact-val">pardhukattaofficial@gmail.com</div></div>
